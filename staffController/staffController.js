@@ -107,10 +107,7 @@ const deleteStaffDetails = async function (req, res) {
 };
 
 const deleteAllStaffDetails = async function(req,res){
-  const data = await Staff.get();
-  const result = await data.docs;
-  const test = result.delete()
-  res.json(test);
+  
 }
 
 const updateAllStaffDetails = async function (req, res) {};
